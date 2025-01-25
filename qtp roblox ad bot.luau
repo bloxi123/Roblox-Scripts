@@ -184,6 +184,7 @@ Teleport()
 end
 end
 end)
+pcall(function()
 local players = game:GetService"Players"
 spawn(function()
 while wait() do
@@ -206,3 +207,4 @@ if queueteleport then
 else
     warn("Queue on teleport is not supported on this executor.")
 end
+end)
