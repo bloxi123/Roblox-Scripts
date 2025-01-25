@@ -199,7 +199,7 @@ end)
 local queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 if queueteleport then
     local teleportScript = [[
-        loadstring(game:HttpGet(''))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/bloxi123/Roblox-Scripts/refs/heads/main/qtp%20roblox%20ad%20bot.luau'))()
     ]]
     queueteleport(teleportScript)
     print("Script queued for execution upon teleport.")
